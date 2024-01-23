@@ -1,75 +1,46 @@
-# Nuxt 3 Minimal Starter
+# ToDo List App
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Introduction
 
-## Setup
+The Todo List application is a single-page web application developed with Nuxt.js, a Vue.js framework for building modern web applications. It utilizes the Vuetify UI library for a clean and responsive user interface. The app follows a client-side architecture and stores data locally using the browser's LocalStorage.
 
-Make sure to install the dependencies:
+## Getting Started
+
+Follow these steps to set up and run the ToDo List App locally on your development machine.
+
+### Prerequisites
+
+Ensure you have the following software installed on your machine:
+
+- **Node.js:** Make sure you have a version that is compatible with Nuxt.js (v12 or higher is recommended).
+
+### Installation
+
+Clone the repository to your local machine:
 
 ```bash
-# npm
+git clone https://github.com/dthrllnrs/todo-list.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd todo-list
+```
+Install dependencies using npm or yarn:
+
+```bash
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
+# or
 yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
+### Run the application
+Once the dependencies are installed, you can run the ToDo List App using the following command:
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
+# or
 yarn dev
-
-# bun
-bun run dev
 ```
+This will start a development server, and you can access the app in your browser at http://localhost:3000.
 
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
